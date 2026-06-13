@@ -17,8 +17,14 @@ Sellers and graders assemble capture setups from unrelated SKUs — light tents,
 - Medical-grade silicone edge protection
 - Modular serviceability — replaceable wear parts instead of glued monoliths
 
-**Go deeper:** [Product Whitepaper](https://github.com/GatoGodMode/GatoGodMode/blob/main/docs/TheMoun-Whitepaper.md) · [Market Research](https://github.com/GatoGodMode/GatoGodMode/blob/main/docs/TheMoun-Market-Research.md)
+**Published diligence package**
 
-> This repo is a public landing page for a physical product program. Engineering documentation is private.
+| Document | Contents |
+|---|---|
+| [Product Whitepaper](https://github.com/GatoGodMode/GatoGodMode/blob/main/docs/TheMoun-Whitepaper.md) | Thesis, EPIC staged rollout, engineering architecture, IP themes |
+| [Market Research](https://github.com/GatoGodMode/GatoGodMode/blob/main/docs/TheMoun-Market-Research.md) | Fragmentation thesis, cited demand signals, grading economics |
+| [Model Schematics](https://github.com/GatoGodMode/GatoGodMode/blob/main/docs/TheMoun-Schematics.md) | Mechanical ortho, system electrical schematic, OBJ reference mesh |
+
+> This repo is a public landing page for a physical product program. Full engineering documentation lives on the profile repo above.
 
 **More:** [Full breakdown on my profile](https://github.com/GatoGodMode)
