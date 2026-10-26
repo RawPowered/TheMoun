@@ -17,14 +17,10 @@ Sellers and graders assemble capture setups from unrelated SKUs — light tents,
 - Medical-grade silicone edge protection
 - Modular serviceability — replaceable wear parts instead of glued monoliths
 
-**Published diligence package**
+**Public product material**
 
-| Document | Contents |
-|---|---|
-| [Product Whitepaper](https://github.com/GatoGodMode/GatoGodMode/blob/main/docs/TheMoun-Whitepaper.md) | Thesis, EPIC staged rollout, engineering architecture, IP themes |
-| [Market Research](https://github.com/GatoGodMode/GatoGodMode/blob/main/docs/TheMoun-Market-Research.md) | Fragmentation thesis, cited demand signals, grading economics |
-| [Model Schematics](https://github.com/GatoGodMode/GatoGodMode/blob/main/docs/TheMoun-Schematics.md) | Mechanical ortho, system electrical schematic, OBJ reference mesh |
+[Grade Station concept showcase](https://github.com/RawPowered/Grade-Station) presents a selected Moun EPIC capture-workstation concept and its development stage. The whitepaper, market-research package, and engineering schematics are not currently published at working public links.
 
-> This repo is a public landing page for a physical product program. Full engineering documentation lives on the profile repo above.
+TheMoun is a physical product program. The public concept does not establish manufacturing, certification, or commercial availability.
 
-**More:** [Full breakdown on my profile](https://github.com/GatoGodMode)
+**More:** [Full breakdown on my profile](https://github.com/RawPowered)
