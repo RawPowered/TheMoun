@@ -1,0 +1,7 @@
+*.psd -text
+*.png -text
+*.jpg -text
+*.jpeg -text
+# Preserve the supplied publication snapshot byte-for-byte.
+/design-source/** -text
+/presentation/** -text

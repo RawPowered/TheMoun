@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#1a1f26" />
+    <title>Moun — Engineering Build Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet" />
+    <!-- Production (`public/index.php`) injects `window.__MOUN.csrf`; without it, interest analytics POSTs are skipped. -->
+    <script>
+      (function () {
+        if (location.protocol === 'file:') document.documentElement.classList.add('gs-file-protocol');
+      })();
+    </script>
+    <style>
+      .gs-file-hint {
+        display: none;
+        box-sizing: border-box;
+        max-width: 36rem;
+        margin: 2rem auto;
+        padding: 1.5rem;
+        font-family: system-ui, sans-serif;
+        line-height: 1.5;
+        color: #1c1917;
+        background: #fff7ed;
+        border: 1px solid #fdba74;
+        border-radius: 12px;
+      }
+      .gs-file-hint h1 {
+        margin: 0 0 0.75rem;
+        font-size: 1.25rem;
+      }
+      .gs-file-hint pre {
+        margin: 0.75rem 0 0;
+        padding: 1rem;
+        background: #1c1917;
+        color: #fafaf9;
+        border-radius: 8px;
+        font-size: 0.8rem;
+        overflow: auto;
+      }
+      html.gs-file-protocol .gs-file-hint {
+        display: block;
+      }
+      html.gs-file-protocol #root {
+        display: none !important;
+      }
+      html.gs-react-mounted .gs-file-hint {
+        display: none !important;
+      }
+      html.gs-react-mounted #root {
+        display: block !important;
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-x6isB5Yn.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CcUDsM7l.css">
+  </head>
+  <body>
+    <div class="gs-file-hint" id="gs-file-hint">
+      <h1>Moun — open via Vite</h1>
+      <p>
+        This page was opened as a local file (<code>file://</code>). Browsers will not run the app that way. Start the dev
+        server from the project folder:
+      </p>
+      <pre>npm install
+npm run dev</pre>
+      <p>Then open the URL Vite prints, usually <strong>http://localhost:5173</strong></p>
+      <p style="margin-top: 1rem; font-size: 0.85rem; color: #57534e">
+        For a static export, run <code>npm run build</code> and serve the <code>dist</code> folder with any static file server
+        (not by double-clicking <code>index.html</code>).
+      </p>
+    </div>
+    <div id="root"></div>
+  </body>
+</html>

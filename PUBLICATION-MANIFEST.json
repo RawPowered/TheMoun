@@ -1,0 +1,1092 @@
+{
+  "publication_date": "2026-10-25",
+  "original_file_count": 155,
+  "original_bytes": 44812298,
+  "files": [
+    {
+      "source_group": "design-source",
+      "source_relative_path": "Logo.psd",
+      "repository_path": "design-source/Logo.psd",
+      "bytes": 8179813,
+      "sha256": "04cfaa176c171cb4b6466fdfca77f5f8ceae1d9d2518b497b71aadd90cb0426d"
+    },
+    {
+      "source_group": "design-source",
+      "source_relative_path": "The Moun Concept.png",
+      "repository_path": "design-source/The Moun Concept.png",
+      "bytes": 2595979,
+      "sha256": "32ea42f4df7f359aea09b0790a78563b5ae581bb002739cba76fd0dfab95cf92"
+    },
+    {
+      "source_group": "design-source",
+      "source_relative_path": "The Moun EPIC and Box Art.psd",
+      "repository_path": "design-source/The Moun EPIC and Box Art.psd",
+      "bytes": 14776431,
+      "sha256": "af87ddf75e7f2081bb2b0a712842e308cdfe6b910bde10baf01b7b1e59c2673b"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": ".htaccess",
+      "repository_path": "presentation/.htaccess",
+      "bytes": 1355,
+      "sha256": "517bfd7c48229f9cd8c9ac96476946e933a0f15b7573af691cb22734dc10133d"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "admin/index.php",
+      "repository_path": "presentation/admin/index.php",
+      "bytes": 2493,
+      "sha256": "8bc4e41461f77554fe4319680b0f100ac60414fcf274cc9b40b69accbf7b8be2"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "admin/interest_analytics.php",
+      "repository_path": "presentation/admin/interest_analytics.php",
+      "bytes": 13765,
+      "sha256": "30def1ebb31543bf183f69a4ac8609d75c068c490f6c49c116aecea61f441e62"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "admin/logins.php",
+      "repository_path": "presentation/admin/logins.php",
+      "bytes": 3286,
+      "sha256": "4ad1e504ab145163288e5a308663d7df95e336d140bc4ddc9fe79395b87a5651"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "admin/nda_acceptances.php",
+      "repository_path": "presentation/admin/nda_acceptances.php",
+      "bytes": 2661,
+      "sha256": "d05aa574beff24af8f7bea721021c6a7984b9023546146cf986960dc6d3170ce"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "admin/update_patches.php",
+      "repository_path": "presentation/admin/update_patches.php",
+      "bytes": 4902,
+      "sha256": "74fd99039800398011a5900170b303b7b84cc929bb15063d8c1175258c075e01"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "admin/users.php",
+      "repository_path": "presentation/admin/users.php",
+      "bytes": 9094,
+      "sha256": "f541b00177b3fda15e1216825892f91db9ee023e2392447eb9be3646ddfbe943"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "assets/index-CcUDsM7l.css",
+      "repository_path": "presentation/assets/index-CcUDsM7l.css",
+      "bytes": 96823,
+      "sha256": "590c5988bcf2f597e82e1b556ec77e9b9f5ff73e9beb2d72a7e205dba479e92d"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "assets/index-x6isB5Yn.js",
+      "repository_path": "presentation/assets/index-x6isB5Yn.js",
+      "bytes": 1919927,
+      "sha256": "1c26abce44dc326b430cd6892a795a636dcf3a46b535d90cc5a2c58727bebad9"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "brand/landing-versatility-hero.png",
+      "repository_path": "presentation/brand/landing-versatility-hero.png",
+      "bytes": 169560,
+      "sha256": "9d6557955824bb208eef7fa1c94749442cd14799dbc7683ab13d3dadb47c53bb"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "brand/login-backdrop.png",
+      "repository_path": "presentation/brand/login-backdrop.png",
+      "bytes": 963884,
+      "sha256": "8e975a5cb826a55174b8d33e94d1c7c641b039ac50200d88e9c6298ae5e0a03b"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "brand/moun-application-collage.png",
+      "repository_path": "presentation/brand/moun-application-collage.png",
+      "bytes": 179266,
+      "sha256": "8e750124087bf24779a6034417f5d8be489a9121f241f8078cb0a5335f141440"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "brand/moun-applications-environments.png",
+      "repository_path": "presentation/brand/moun-applications-environments.png",
+      "bytes": 190347,
+      "sha256": "c2e18105d1bb57bd93d547c399ccb82fe9b869e35ee2a22b9fc2f98442a7a07b"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "brand/moun-ecosystem-quad-home-retail.png",
+      "repository_path": "presentation/brand/moun-ecosystem-quad-home-retail.png",
+      "bytes": 70895,
+      "sha256": "b33dda8b9e2064395b7bff9605ec8c45e3da442b49e477cef7f601f29dab05d1"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "brand/moun-epic-lockup-official.png",
+      "repository_path": "presentation/brand/moun-epic-lockup-official.png",
+      "bytes": 33001,
+      "sha256": "5b7a578d18cf53eab2bf56e78f8ff2fbaf7059a1c021cc5b3f307d887fed0978"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "brand/moun-flagship-family-table.png",
+      "repository_path": "presentation/brand/moun-flagship-family-table.png",
+      "bytes": 75776,
+      "sha256": "48d70b4fabf38c9ff91bb924bb40b8d7a59f57460c3a305342ea524444e340e1"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "brand/moun-flagship-packshot-square.png",
+      "repository_path": "presentation/brand/moun-flagship-packshot-square.png",
+      "bytes": 962674,
+      "sha256": "4c295729d7ea514a2d3335ad4d9cacfeddae03d6c3a7d35d8ba8b751c0e1b2e6"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "brand/moun-flagship-rig-hero.png",
+      "repository_path": "presentation/brand/moun-flagship-rig-hero.png",
+      "bytes": 112242,
+      "sha256": "4050f5e9174de12c26f5796302569c47f28c96cfd3e891b532516ea9fdf077e1"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "brand/moun-logo-carbon-hero.png",
+      "repository_path": "presentation/brand/moun-logo-carbon-hero.png",
+      "bytes": 35335,
+      "sha256": "6c92b2ddc54574fd9c64d277d6e3c992c54c7556a7506ba67228e1398da76c6d"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "brand/moun-logo-fitted.png",
+      "repository_path": "presentation/brand/moun-logo-fitted.png",
+      "bytes": 173348,
+      "sha256": "27f6d9e4fdee077af495a4d98325dc60ad02e27788ba7bada420cb83499171ae"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "brand/moun-logo-official.png",
+      "repository_path": "presentation/brand/moun-logo-official.png",
+      "bytes": 35335,
+      "sha256": "6c92b2ddc54574fd9c64d277d6e3c992c54c7556a7506ba67228e1398da76c6d"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "brand/moun-precision-workflow-ecosystem.png",
+      "repository_path": "presentation/brand/moun-precision-workflow-ecosystem.png",
+      "bytes": 199759,
+      "sha256": "4da5b85d8c7ca3f0e547f34ef48eb4cc5fd4ca209ee6d99c774664827f4ee255"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "brand/moun-secure-workflow-everywhere.png",
+      "repository_path": "presentation/brand/moun-secure-workflow-everywhere.png",
+      "bytes": 181402,
+      "sha256": "1a062f33fddcbd5ccadb977fd4170bf0a037f521ea01e09480101a2e61925f74"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "brand/README.txt",
+      "repository_path": "presentation/brand/README.txt",
+      "bytes": 336,
+      "sha256": "66b2d4ef020bb15adbef1c402fbbec6da63fb6f7cde722f1f694e74c632b7ac1"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "deploy/sync.sql",
+      "repository_path": "presentation/deploy/sync.sql",
+      "bytes": 1825,
+      "sha256": "56895cb5e239c44b6546638c0a917fcaa67fe740d84b979d65a6a6544bfce4ac"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "favicon.svg",
+      "repository_path": "presentation/favicon.svg",
+      "bytes": 591,
+      "sha256": "b5190a79d392c4d325a8674c38bf5c6993fe71f2341b8ad9b96e60329017ce86"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/01-gantry-iso.png",
+      "repository_path": "presentation/hobbyist-eco/01-gantry-iso.png",
+      "bytes": 35772,
+      "sha256": "701e175506ae742f83b2005eb5e6410ad527e84e3f942ab5fb9601c14c550c37"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/02-dual-pillar-iso.png",
+      "repository_path": "presentation/hobbyist-eco/02-dual-pillar-iso.png",
+      "bytes": 41282,
+      "sha256": "ed5f6dbd87c6f4621513995c2c59433ddc26ec2b29b1881037ee26406192b1c0"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/03-single-pillar-iso.png",
+      "repository_path": "presentation/hobbyist-eco/03-single-pillar-iso.png",
+      "bytes": 48921,
+      "sha256": "3d2f924f9a7e05560f6a25526f6dccf281a2e9cfe1e05dd016b0f36599a3f466"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/04-top-ortho.png",
+      "repository_path": "presentation/hobbyist-eco/04-top-ortho.png",
+      "bytes": 33633,
+      "sha256": "a225d0f2a59cb92dd2508f07466cc5141cd99925c221de15b5c45822b0c92618"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/05-angled-hood.png",
+      "repository_path": "presentation/hobbyist-eco/05-angled-hood.png",
+      "bytes": 56656,
+      "sha256": "e34d1e4e0e1a8fefab9b3a177cd11c000a862554ea62f505f9412bc18fd9beee"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/06-height-adjust-detail.png",
+      "repository_path": "presentation/hobbyist-eco/06-height-adjust-detail.png",
+      "bytes": 63804,
+      "sha256": "239ec346ad1cc5d7d00d270fa58c69b7a74ce03e942928760f0332177b5820a0"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/07-pin-lock-detail.png",
+      "repository_path": "presentation/hobbyist-eco/07-pin-lock-detail.png",
+      "bytes": 42460,
+      "sha256": "66d921e5941d4f88e9b6bde13e98e908b5de9602eeac0b963d3e2797dbabc3f1"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/08-top-sliders.png",
+      "repository_path": "presentation/hobbyist-eco/08-top-sliders.png",
+      "bytes": 55847,
+      "sha256": "9d7c6e77314da26e78081eb7106a889b47e001133ab3294ba06b850892b9de59"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/09-frame-feet.png",
+      "repository_path": "presentation/hobbyist-eco/09-frame-feet.png",
+      "bytes": 46571,
+      "sha256": "f72045863a759c13910c0735dd03e37f44bd0759656dbaeba3db972ffe0500cc"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/exploded/01-vertical-stack.png",
+      "repository_path": "presentation/hobbyist-eco/exploded/01-vertical-stack.png",
+      "bytes": 60596,
+      "sha256": "6c2bb62d899c77fb859c8a7688c7028963568baf8e63677820fb13dd60248506"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/exploded/02-parts-isometric.png",
+      "repository_path": "presentation/hobbyist-eco/exploded/02-parts-isometric.png",
+      "bytes": 36683,
+      "sha256": "d2fbf0cdd76d8e3feb07f2ae0cd4f86e3338232383f71f6edb7d10fe1c949eeb"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/exploded/03-kit-linear.png",
+      "repository_path": "presentation/hobbyist-eco/exploded/03-kit-linear.png",
+      "bytes": 69863,
+      "sha256": "ca7a78b43fe18d1940d87ce0270f21bee665a4a7c79777aeab40ff838c0a26c3"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-assembly-use-storyboard.png",
+      "repository_path": "presentation/hobbyist-eco/moun-e-assembly-use-storyboard.png",
+      "bytes": 157727,
+      "sha256": "129e964c0eb66c8c2190a3129dc3bd608856a4acbd8d09f19191642929d5ff6d"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-cad-assembly-stages.png",
+      "repository_path": "presentation/hobbyist-eco/moun-e-cad-assembly-stages.png",
+      "bytes": 46093,
+      "sha256": "f3b2f3ffed081baa0af2ee6bc42dfce0f428d732176ec5e8660fb4dc595517d7"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-cad-full-rig-tinkercad.png",
+      "repository_path": "presentation/hobbyist-eco/moun-e-cad-full-rig-tinkercad.png",
+      "bytes": 126746,
+      "sha256": "36816fd753d33515e6886bcd4ba941a67cba3c2438adb24fcfaecebc5b38d062"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-cad-internal-frame.png",
+      "repository_path": "presentation/hobbyist-eco/moun-e-cad-internal-frame.png",
+      "bytes": 119579,
+      "sha256": "8f659aa4e9ec8a0c79c8dc1541b25eadcf3c1666d1e9238cd9f4fa082667b608"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-cad-low-angle-frame.png",
+      "repository_path": "presentation/hobbyist-eco/moun-e-cad-low-angle-frame.png",
+      "bytes": 78526,
+      "sha256": "9b52ac9e8d33d425778fe84d02612eb325b6fdca24a3fbe91d28f24088c1e7ce"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-cad-modular-exploded.png",
+      "repository_path": "presentation/hobbyist-eco/moun-e-cad-modular-exploded.png",
+      "bytes": 46093,
+      "sha256": "f3b2f3ffed081baa0af2ee6bc42dfce0f428d732176ec5e8660fb4dc595517d7"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-cad-task-strip-detail.png",
+      "repository_path": "presentation/hobbyist-eco/moun-e-cad-task-strip-detail.png",
+      "bytes": 78526,
+      "sha256": "9b52ac9e8d33d425778fe84d02612eb325b6fdca24a3fbe91d28f24088c1e7ce"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-cobra/01-phone-bench-usb-adapter.png",
+      "repository_path": "presentation/hobbyist-eco/moun-e-cobra/01-phone-bench-usb-adapter.png",
+      "bytes": 128756,
+      "sha256": "55bd94c708fa1ff87fbc3bf269d0a254236d7f017b902d697b3a80a9329df6f8"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-cobra/02-pillar-usb-low-view.png",
+      "repository_path": "presentation/hobbyist-eco/moun-e-cobra/02-pillar-usb-low-view.png",
+      "bytes": 28016,
+      "sha256": "8f10f2156d6dfe24abc8febfe60b6224dd3a4f365e344a6549b36dd6d45ac557"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-cobra/03-angled-phone-bench-adapter.png",
+      "repository_path": "presentation/hobbyist-eco/moun-e-cobra/03-angled-phone-bench-adapter.png",
+      "bytes": 153126,
+      "sha256": "35e2a5d74d175688d2c1b73600ccaac8bcc7d42eaef77407a13f0c07ede74d78"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-cobra/04-workplane-header-leds-tabs.png",
+      "repository_path": "presentation/hobbyist-eco/moun-e-cobra/04-workplane-header-leds-tabs.png",
+      "bytes": 101146,
+      "sha256": "7c65e849e7a0b00b80ae039c5e1bdbee13da47b0150b07b00a98e9afcf88a3d8"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-cobra/05-exploded-assembly-red-bench.png",
+      "repository_path": "presentation/hobbyist-eco/moun-e-cobra/05-exploded-assembly-red-bench.png",
+      "bytes": 96617,
+      "sha256": "3e0f1b67a6f0a368b3ab3657b9b45d9387f5dc0fd799569d8ec3af19af525725"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-cobra/06-exploded-l-bench-usb.png",
+      "repository_path": "presentation/hobbyist-eco/moun-e-cobra/06-exploded-l-bench-usb.png",
+      "bytes": 65969,
+      "sha256": "0f8fe377d6cc2b3dc89902743e605d896db0d95d698ac4a55c5d83fbd28e4a03"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-cobra/07-assembly-unbox-power-storyboard.png",
+      "repository_path": "presentation/hobbyist-eco/moun-e-cobra/07-assembly-unbox-power-storyboard.png",
+      "bytes": 89137,
+      "sha256": "2daac07108d46561ad8e8323ea2eb406bd2c5cda6c481f637413781f6687ab08"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-cobra/08-cobra-hero.png",
+      "repository_path": "presentation/hobbyist-eco/moun-e-cobra/08-cobra-hero.png",
+      "bytes": 91995,
+      "sha256": "5acef6f32bd840859a9bd02719fffcd950c2ab103c426b1be4e99688ac28f50e"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-cobra/moun-e-cobra-logo.png",
+      "repository_path": "presentation/hobbyist-eco/moun-e-cobra/moun-e-cobra-logo.png",
+      "bytes": 192179,
+      "sha256": "87f87bf08377e18ed6de29fb9baafe2056d3b3641542b19837421b8d680c94ff"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-cobra/obj.mtl",
+      "repository_path": "presentation/hobbyist-eco/moun-e-cobra/obj.mtl",
+      "bytes": 156,
+      "sha256": "c375ca0fdbd573ef5f466347a0cb3985feac630c13a625894779b7f0e8a0a721"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-cobra/tinker.obj",
+      "repository_path": "presentation/hobbyist-eco/moun-e-cobra/tinker.obj",
+      "bytes": 957728,
+      "sha256": "aea6de7175fec618e1d0d32a0df053f3741cfcbf9b7cc459b6978a6fbbb71728"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-flagship-ecosystem-hero.png",
+      "repository_path": "presentation/hobbyist-eco/moun-e-flagship-ecosystem-hero.png",
+      "bytes": 152978,
+      "sha256": "9e1685ee962e1466386aec1b975479349348108fd3e60da8ccb421bcd727c290"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-frictionless-adoption-steps.png",
+      "repository_path": "presentation/hobbyist-eco/moun-e-frictionless-adoption-steps.png",
+      "bytes": 118703,
+      "sha256": "6091ce95e18896e05da21aef492d17a4fb8bf18b32140fbfc4321ac27df35358"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-structure-cad-01-editor-explode.png",
+      "repository_path": "presentation/hobbyist-eco/moun-e-structure-cad-01-editor-explode.png",
+      "bytes": 131043,
+      "sha256": "4856cd268c9c92cf3ab2fd2318b3597a2bf65df2c0f29242d30e1357f17b1b7b"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-structure-cad-02-assembled-hero.png",
+      "repository_path": "presentation/hobbyist-eco/moun-e-structure-cad-02-assembled-hero.png",
+      "bytes": 58762,
+      "sha256": "31b96b36e9f8623fc3877d8beba92eb6070dfc75db609a7b0b9f5093f394a530"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/moun-e-structure-cad-03-side-structural.png",
+      "repository_path": "presentation/hobbyist-eco/moun-e-structure-cad-03-side-structural.png",
+      "bytes": 82732,
+      "sha256": "4ffb7622f15113f18b9357c60ba62da25560d74e654d53cb0258860050729285"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/packaging/01-box-panels-shelf.png",
+      "repository_path": "presentation/hobbyist-eco/packaging/01-box-panels-shelf.png",
+      "bytes": 166176,
+      "sha256": "206874aa3b70c0ff80cf5589fafbb166d5e577eb834347a8cf424a37aee0f8a4"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/packaging/02-box-front-detail.png",
+      "repository_path": "presentation/hobbyist-eco/packaging/02-box-front-detail.png",
+      "bytes": 184603,
+      "sha256": "b7180d2b48db2c4d3de634d0a7549b49b4775dc0a065774fd3c41fdf1b1659e2"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/packaging/moun-e-eco-scanner-box-front-detail.png",
+      "repository_path": "presentation/hobbyist-eco/packaging/moun-e-eco-scanner-box-front-detail.png",
+      "bytes": 109776,
+      "sha256": "5e68c8c1825b6d022e71b18edee3f6de5edb3c85360bd3aa953bdc173dbd73eb"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/packaging/moun-e-eco-scanner-box-shelf.png",
+      "repository_path": "presentation/hobbyist-eco/packaging/moun-e-eco-scanner-box-shelf.png",
+      "bytes": 110017,
+      "sha256": "a6a05d7a056c12007e63ecf4bf1d9aa2c2f91afe4cf6f3e612ef3c7270587725"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/polished/01-low-angle-stage.png",
+      "repository_path": "presentation/hobbyist-eco/polished/01-low-angle-stage.png",
+      "bytes": 59528,
+      "sha256": "f5c1c446b27178c280fc4b3997207412fcdabe4a6e6f933b71fae5359e044bed"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/polished/02-perspective-context.png",
+      "repository_path": "presentation/hobbyist-eco/polished/02-perspective-context.png",
+      "bytes": 62894,
+      "sha256": "ef5faa77dfa8868509ad5769fd9d4573f943cd90b4af12fa8402880dc78926d0"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/polished/03-bridge-under-lighting.png",
+      "repository_path": "presentation/hobbyist-eco/polished/03-bridge-under-lighting.png",
+      "bytes": 48063,
+      "sha256": "685786bc75ab74297bd4db0386608a380b484556e325d6689cd6797cb91ce842"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/polished/04-canopy-low-angle.png",
+      "repository_path": "presentation/hobbyist-eco/polished/04-canopy-low-angle.png",
+      "bytes": 62516,
+      "sha256": "6aa075bea19bb71967d1d154b7f0346cd40bdf8028979000adbaff70289ce4d2"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/realworld/02-prototype-use-case.png",
+      "repository_path": "presentation/hobbyist-eco/realworld/02-prototype-use-case.png",
+      "bytes": 157662,
+      "sha256": "aace6a3620eac0aff5cb4d16a41f71b270faf0b08b28a0ec6157c49797af13a1"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/realworld/moun-e-prototype-ai-preview.png",
+      "repository_path": "presentation/hobbyist-eco/realworld/moun-e-prototype-ai-preview.png",
+      "bytes": 112242,
+      "sha256": "4050f5e9174de12c26f5796302569c47f28c96cfd3e891b532516ea9fdf077e1"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/usage/01-top-phone-mat.png",
+      "repository_path": "presentation/hobbyist-eco/usage/01-top-phone-mat.png",
+      "bytes": 45252,
+      "sha256": "83b8babc408c0f41b4b6a06c040df3429cc8f7b586ed535a952e35a4e12494ea"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/usage/02-isometric-phone-stage.png",
+      "repository_path": "presentation/hobbyist-eco/usage/02-isometric-phone-stage.png",
+      "bytes": 66088,
+      "sha256": "ffb4cf24ce8661c098f3c99e8a5cc8227cc50d2f7647ce65c1ca369b861deb7c"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/usage/03-frame-sliders-phone.png",
+      "repository_path": "presentation/hobbyist-eco/usage/03-frame-sliders-phone.png",
+      "bytes": 106790,
+      "sha256": "835475043f43dd395aea0a86573dbb8b8db82d30444add6f7bb49bbddff8c258"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "hobbyist-eco/usage/04-bridge-card-and-coin.png",
+      "repository_path": "presentation/hobbyist-eco/usage/04-bridge-card-and-coin.png",
+      "bytes": 92785,
+      "sha256": "7c1c9c63283b41042570d424f818a7a078bbdbbb26712620b5d37156c24989ae"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "index.html",
+      "repository_path": "presentation/index.html",
+      "bytes": 2780,
+      "sha256": "5b6400b5c81eda957e08473499a28aac924a3512f71d9a3175567e54f19c8b22"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "index.php",
+      "repository_path": "presentation/index.php",
+      "bytes": 2108,
+      "sha256": "c799b4fc0ab9d8b38f59657982574dfbed1228365620bd7f76a4547e1e057203"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "install.php",
+      "repository_path": "presentation/install.php",
+      "bytes": 13835,
+      "sha256": "4486f392a6e47b602711eb87bd47744013c3a4e8f35f342c2a8037183c29c8d4"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "investors/ebay-seo-dashboard.png",
+      "repository_path": "presentation/investors/ebay-seo-dashboard.png",
+      "bytes": 41175,
+      "sha256": "aac7eb68b1673cac500adacc9fa5affef62b4e5f9b08b5782b8bd92dde85fa77"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "investors/moun-e-hero-product-desk-shelf.png",
+      "repository_path": "presentation/investors/moun-e-hero-product-desk-shelf.png",
+      "bytes": 1006534,
+      "sha256": "acc23e416893b5d41fa85342a46bcde2c7f17bfbbf8446deb8fc5b99577e37e6"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "investors/moun-e-sales-assembly-4panel.png",
+      "repository_path": "presentation/investors/moun-e-sales-assembly-4panel.png",
+      "bytes": 1037513,
+      "sha256": "4eea518ba2f6272c52c8e8aeffb770565c25519e31d73d691ba67c33dce78438"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "investors/moun-e-sales-ecosystem-4panel.png",
+      "repository_path": "presentation/investors/moun-e-sales-ecosystem-4panel.png",
+      "bytes": 284813,
+      "sha256": "2848696c3f82df6ee65bf819e0e66d95253b1d72bde49dfbcb0183cc3cebadc6"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "investors/moun-e-sales-lifestyle-evaluation.png",
+      "repository_path": "presentation/investors/moun-e-sales-lifestyle-evaluation.png",
+      "bytes": 296626,
+      "sha256": "ac0efc6b12a482a874bfcffdb7f24ddbbf62f9c71fd7aed00f6d49eee5591ce2"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "investors/photo-booth-examples/overhead-crane-clamp-mounts.png",
+      "repository_path": "presentation/investors/photo-booth-examples/overhead-crane-clamp-mounts.png",
+      "bytes": 77645,
+      "sha256": "70c85a41aef7becf08480bc6c139a9dfef93acadb15c4f7b6808ce104ad64dce"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "investors/photo-booth-examples/retail-light-tent-examples-1.png",
+      "repository_path": "presentation/investors/photo-booth-examples/retail-light-tent-examples-1.png",
+      "bytes": 83943,
+      "sha256": "3c5aec563d14c7d4b56263c971891b3818a349c22c871064bcf25ff7286a2e8e"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "investors/photo-booth-examples/retail-light-tent-examples-2.png",
+      "repository_path": "presentation/investors/photo-booth-examples/retail-light-tent-examples-2.png",
+      "bytes": 112439,
+      "sha256": "718c72914b0f1500632b692771d32cead3c258a8101a729f61e9539479eb8cb2"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "investors/pricecharting-seo-dashboard.png",
+      "repository_path": "presentation/investors/pricecharting-seo-dashboard.png",
+      "bytes": 48710,
+      "sha256": "3fa1f07f0f2d5aff309bdf083669db14a8befb789faae6c50d07b880959d3c71"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "investors/scene-gen-con-floor-2010.jpg",
+      "repository_path": "presentation/investors/scene-gen-con-floor-2010.jpg",
+      "bytes": 143002,
+      "sha256": "174eff4c10d56f9c4b0f27d503ce4364c56e0283f450f224a02d62ca29216a56"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "investors/scene-pokemon-worlds-expo-2014.jpg",
+      "repository_path": "presentation/investors/scene-pokemon-worlds-expo-2014.jpg",
+      "bytes": 173852,
+      "sha256": "aedcac3cb5c7be6a2e301f3287898f909977af78ac74fd4e515f4e9db255ff08"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "investors/scene-pokemon-worlds-merch-line.jpg",
+      "repository_path": "presentation/investors/scene-pokemon-worlds-merch-line.jpg",
+      "bytes": 361680,
+      "sha256": "25965a14a6d5919b012bb69fa0663226641ba8dbd8f8c0d2eb1cc485ca3e8b4f"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "investors/tcgplayer-seo-dashboard.png",
+      "repository_path": "presentation/investors/tcgplayer-seo-dashboard.png",
+      "bytes": 35039,
+      "sha256": "74719a6b11d8374366ae1c3904040784b6ed33d6a8f01ec24bf1e2a1ee6f4391"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "investors/use-case-booth-tablet-buyer.png",
+      "repository_path": "presentation/investors/use-case-booth-tablet-buyer.png",
+      "bytes": 180861,
+      "sha256": "dc410ea0db09ba938b24096e81f993abf00c35689303976b1cc353326e46dfe6"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "investors/use-case-card-show-live-pricing.png",
+      "repository_path": "presentation/investors/use-case-card-show-live-pricing.png",
+      "bytes": 159984,
+      "sha256": "d1bea0696bcff3aa516848f45ad20eeafa8f7120f90a21195b606294d1c4491a"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "investors/use-case-coin-workbench-listing.png",
+      "repository_path": "presentation/investors/use-case-coin-workbench-listing.png",
+      "bytes": 128826,
+      "sha256": "06ecd43180f843143b0b86357f4ec52e9edd621cefced2f89e1632f58e3d1a38"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "investors/use-case-dealer-desk-inventory.png",
+      "repository_path": "presentation/investors/use-case-dealer-desk-inventory.png",
+      "bytes": 194866,
+      "sha256": "25355d86b2706346e07a3500832c5d848deb2ee18583d5dd585a46fc833b1acc"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "investors/use-case-livestream-prep.png",
+      "repository_path": "presentation/investors/use-case-livestream-prep.png",
+      "bytes": 158680,
+      "sha256": "92d7fbecaa54529372a37310f4120c7db717eccc94c6d3119454c6cc5a3305f2"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "investors/use-case-show-floor-crowd.png",
+      "repository_path": "presentation/investors/use-case-show-floor-crowd.png",
+      "bytes": 157666,
+      "sha256": "6543c4265c6f876ed188b0610d1826089ee508bad88d7518e174a560b9a22733"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "invite.php",
+      "repository_path": "presentation/invite.php",
+      "bytes": 6226,
+      "sha256": "c2e27796e88ba958b1eb06df6a52329d3cfe2795fc10b7434d5cf28658ad4e38"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "login.php",
+      "repository_path": "presentation/login.php",
+      "bytes": 2585,
+      "sha256": "424e4a1e1bb8e8210322de19eedbe546bb964ccf1509e22e798307de5e70cc62"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "logout.php",
+      "repository_path": "presentation/logout.php",
+      "bytes": 215,
+      "sha256": "c8bf8f05a38dc74e88038e25a7becb46255a43d6158ecf524b8078da08f79615"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "market-fragmented-retail.png",
+      "repository_path": "presentation/market-fragmented-retail.png",
+      "bytes": 170815,
+      "sha256": "8e648e7a8fbcc0579f0fa40fefdf10936b03bf8ba616626eebd95443e3ba3b3d"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "market-research/ebay-pokemon-sold-ccg-individual-cards.png",
+      "repository_path": "presentation/market-research/ebay-pokemon-sold-ccg-individual-cards.png",
+      "bytes": 111207,
+      "sha256": "098ca8e72bbbba1782896b0acac2e118ac33a3865f08b11e0623b91f11c9bc67"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "market-research/ebay-pokemon-sold-recent-all-categories.png",
+      "repository_path": "presentation/market-research/ebay-pokemon-sold-recent-all-categories.png",
+      "bytes": 106723,
+      "sha256": "c75a86305f754c4958c7d4b1d145d10fd1813c3f8c7c28e6c82030f8b8434360"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "market-research/ebay-sold-pokemon-listing-quality-variance.png",
+      "repository_path": "presentation/market-research/ebay-sold-pokemon-listing-quality-variance.png",
+      "bytes": 435614,
+      "sha256": "f5080b8925be593186a34feca8c45689fe829033f0805016b18c9ca032df79f5"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "market-research/gemrate-march-2026-items-graded.png",
+      "repository_path": "presentation/market-research/gemrate-march-2026-items-graded.png",
+      "bytes": 324215,
+      "sha256": "711f6018fc5f29abb0268014469a921d82b0f46b0ef51f5f47a8e9c4f1932d36"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "market-research/google-trends-games-us-7d-pokemon-champions.png",
+      "repository_path": "presentation/market-research/google-trends-games-us-7d-pokemon-champions.png",
+      "bytes": 55485,
+      "sha256": "462cad13ae288a61fa1230ac8b25f5e8760b7f3b480038f6528368177d6660cf"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "market-research/google-trends-pokemon-us-1y-alt.png",
+      "repository_path": "presentation/market-research/google-trends-pokemon-us-1y-alt.png",
+      "bytes": 20341,
+      "sha256": "83e86bcf53093aa862c20e3332b4bddac93ddfc74b0b9bc5af3a1c4dcbefac6d"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "market-research/google-trends-pokemon-us-1y.png",
+      "repository_path": "presentation/market-research/google-trends-pokemon-us-1y.png",
+      "bytes": 18326,
+      "sha256": "7cd53c6c373e4ebb68af6e2d9f86fb5b264a11599828ea3a58b94c50851c3a6b"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "market-research/google-trends-pokemon-us-5y.png",
+      "repository_path": "presentation/market-research/google-trends-pokemon-us-5y.png",
+      "bytes": 20869,
+      "sha256": "0f0d50fda6f40fea5d3644500172a517181b7e402c647bde4efd995db42e628c"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "market-research/moun-market-margin-analysis.png",
+      "repository_path": "presentation/market-research/moun-market-margin-analysis.png",
+      "bytes": 191426,
+      "sha256": "8ed7063d3018aefd76adb78c80d8f57bfba551c24fd6e901cd815dc04f7ca28f"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "market-research/moun-market-margins-hero.png",
+      "repository_path": "presentation/market-research/moun-market-margins-hero.png",
+      "bytes": 159076,
+      "sha256": "36f1ed21e232e2179a908061d01ef933e37bdeedf2ea77d373b27ad264b35e9e"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "market-research/tcgplayer-card-price-snapshot-mega-absol.png",
+      "repository_path": "presentation/market-research/tcgplayer-card-price-snapshot-mega-absol.png",
+      "bytes": 89779,
+      "sha256": "3e471c54327da07653d50a9659430b4e11845d253e0c6f75f1b05ba0db614879"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "market-research/tcgplayer-market-dashboard-mega-absol.png",
+      "repository_path": "presentation/market-research/tcgplayer-market-dashboard-mega-absol.png",
+      "bytes": 80416,
+      "sha256": "e0a0c993a1ebab4ce409d96af61eb39a0de6c36ce93ef9f590a78e75d9822d86"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "modular-exploded-service-reference.png",
+      "repository_path": "presentation/modular-exploded-service-reference.png",
+      "bytes": 84732,
+      "sha256": "f11385d6065864300155d48ee2984309e22d3d0d2e4ab86f1a5bd9f62ea83927"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "nda.php",
+      "repository_path": "presentation/nda.php",
+      "bytes": 4257,
+      "sha256": "78b38c27da8f0568e4d1e0b9eb09e5642773403c53f006a0e49ecbdcef06db7d"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "obj.mtl",
+      "repository_path": "presentation/obj.mtl",
+      "bytes": 156,
+      "sha256": "c375ca0fdbd573ef5f466347a0cb3985feac630c13a625894779b7f0e8a0a721"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "pad-structure-beneath-exploded-chassis.png",
+      "repository_path": "presentation/pad-structure-beneath-exploded-chassis.png",
+      "bytes": 54763,
+      "sha256": "bb8385074b83f2b5cea759a700531ad3ebf1324cd787fe4ff78e02e932be5712"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "pad-structure-beneath-labeled-surface.png",
+      "repository_path": "presentation/pad-structure-beneath-labeled-surface.png",
+      "bytes": 89840,
+      "sha256": "047e939812802eab36a8246f44675daee0dc7cff25c32e7df84c1c4da75fd23f"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "pad-structure-beneath-mount-plate.png",
+      "repository_path": "presentation/pad-structure-beneath-mount-plate.png",
+      "bytes": 68835,
+      "sha256": "3c8d7fe858cceb07b6e5e893aea82005c25d3d393477787c97e37c06cd766b10"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "pad-structure-beneath-plastic-overlay-callout.png",
+      "repository_path": "presentation/pad-structure-beneath-plastic-overlay-callout.png",
+      "bytes": 66801,
+      "sha256": "aea2b83dc96748478934831c0b0157970fe0030561d1b9621c00bc0b5391b520"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "php/.htaccess",
+      "repository_path": "presentation/php/.htaccess",
+      "bytes": 143,
+      "sha256": "eec1095d96114f372deedffc10df48b320500dc3255248d6667fee7c28640f48"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "php/analytics_allowlist.php",
+      "repository_path": "presentation/php/analytics_allowlist.php",
+      "bytes": 3012,
+      "sha256": "6dc2b8e95158e98b676c01237d3e51597492f001a7c8940e353622cc6425ead9"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "php/analytics_ingest.php",
+      "repository_path": "presentation/php/analytics_ingest.php",
+      "bytes": 4992,
+      "sha256": "9229daa8051150f7e66d5fc73c40853c887ad61fd748013e0b9744aaf99e9eb1"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "php/auth.php",
+      "repository_path": "presentation/php/auth.php",
+      "bytes": 3252,
+      "sha256": "59f8e7dfefc9ef1d718bdb7fca022e82af6dbc0c5e01a899f5e3222e9714342f"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "php/bootstrap.php",
+      "repository_path": "presentation/php/bootstrap.php",
+      "bytes": 3525,
+      "sha256": "ca4c2c9d16ae85b611c9cc4e5a4a80b75d97b494f6844101c533e12d7697c465"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "php/config.example.php",
+      "repository_path": "presentation/php/config.example.php",
+      "bytes": 901,
+      "sha256": "6e0e4961611176af4604f1cc3af2a51cf28661212f2fdf7783bcf0e918ad85e5"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "php/csrf.php",
+      "repository_path": "presentation/php/csrf.php",
+      "bytes": 480,
+      "sha256": "811ff951a0699fe5e9a4c584f8fc590a47ef7f1e9815d4365c56d913fef8d524"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "php/database.php",
+      "repository_path": "presentation/php/database.php",
+      "bytes": 680,
+      "sha256": "fa82d611b0e2d133d1b285dc87c237f94314e8b3ebb31804e61a0681b46ca963"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "php/geoip.php",
+      "repository_path": "presentation/php/geoip.php",
+      "bytes": 1326,
+      "sha256": "b15128aaad2283cc257a92ac9dca3efc7d51e8d3267cace4907deb99c10b5143"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "php/install_schema.sql",
+      "repository_path": "presentation/php/install_schema.sql",
+      "bytes": 5987,
+      "sha256": "1a4222fd7335cf042077cfdc9638f29b4b67ed52b68a4742991bd7d514f29dcf"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "php/moun-ui.css",
+      "repository_path": "presentation/php/moun-ui.css",
+      "bytes": 27838,
+      "sha256": "1ba05ab92f394a3fef9cd24894ad822fb80f1dcfd49b9c306f29cf9363ccaf1b"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "php/security_headers.php",
+      "repository_path": "presentation/php/security_headers.php",
+      "bytes": 1251,
+      "sha256": "a2e85dcbee6a88eeb98c20b24ca931137ba784483bc2f32121dfb84fbb507dad"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "php/serve_asset.php",
+      "repository_path": "presentation/php/serve_asset.php",
+      "bytes": 2020,
+      "sha256": "ef2579b84a71d962d3da345f87fc3acfc2565dee07644768bd1757885af1880d"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "php/session.php",
+      "repository_path": "presentation/php/session.php",
+      "bytes": 1873,
+      "sha256": "b8a95f6eba4f1dbe7f0aea79823a5c19820c3314e910c7aae441867c22d0de78"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "php/sql_split.php",
+      "repository_path": "presentation/php/sql_split.php",
+      "bytes": 738,
+      "sha256": "aeef5c28efc9a7ecde4aad3a4d7b1f23b9cf6a5bcc910847a467369d22cf4d5f"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "php/views.php",
+      "repository_path": "presentation/php/views.php",
+      "bytes": 8327,
+      "sha256": "bcde945a3caa99e14e00419b5b8d1c1a395fda054fb293209287cee25c826fe7"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "product-pad-concept-black-bare.png",
+      "repository_path": "presentation/product-pad-concept-black-bare.png",
+      "bytes": 67431,
+      "sha256": "b55e2bac7b5f3b46acf22a3617290c0bc1b59fe75a0a98dad093e22b290b2b0b"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "product-pad-concept-black-guided.png",
+      "repository_path": "presentation/product-pad-concept-black-guided.png",
+      "bytes": 72477,
+      "sha256": "cfefce8797c09dd42c87a8504100d281783f0c69a7416baa5a38f738c361d7c4"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "product-pad-concept-with-guide.png",
+      "repository_path": "presentation/product-pad-concept-with-guide.png",
+      "bytes": 72529,
+      "sha256": "81f2b8f0d480db483811ef8cbd0449f4ce8a9c05d0e96c7db15cd68d0d2c25c5"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "product-plastic-guide-rough-concept.png",
+      "repository_path": "presentation/product-plastic-guide-rough-concept.png",
+      "bytes": 136946,
+      "sha256": "e0e7e16c09b15bf68cb2cbb6dd12e5530c28d02133cb4d9f95ac1da93d72bbd0"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "profile.php",
+      "repository_path": "presentation/profile.php",
+      "bytes": 5658,
+      "sha256": "3dd7dfc3c458ff36ced28d20a35ee3c978be6be5929c55223f893c0a29314830"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "set_password.php",
+      "repository_path": "presentation/set_password.php",
+      "bytes": 2842,
+      "sha256": "9a81c231123e9e86bef41873e7e7d395e11277ea080cf618731373578300e451"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "tinker.obj",
+      "repository_path": "presentation/tinker.obj",
+      "bytes": 957728,
+      "sha256": "aea6de7175fec618e1d0d32a0df053f3741cfcbf9b7cc459b6978a6fbbb71728"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "whitepaper/moun-e-structure-exploded-stack-1.png",
+      "repository_path": "presentation/whitepaper/moun-e-structure-exploded-stack-1.png",
+      "bytes": 36057,
+      "sha256": "145ebf91067bbef5e5123c63d33165bf286a4bb039f85bfc9446d3ef27016f46"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "whitepaper/moun-e-structure-exploded-stack-2.png",
+      "repository_path": "presentation/whitepaper/moun-e-structure-exploded-stack-2.png",
+      "bytes": 46212,
+      "sha256": "de08883ca186f3183bf705175c0e6bf7ebad47009948de1931bad37650f6f082"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "whitepaper/moun-e-structure-exploded-stack-3.png",
+      "repository_path": "presentation/whitepaper/moun-e-structure-exploded-stack-3.png",
+      "bytes": 67576,
+      "sha256": "0c84cc5f6cd4479ef5d483ab0997ac876c820df94d946785c802e638c6dc582c"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "whitepaper/pro-assembled-vs-head-disassembled.png",
+      "repository_path": "presentation/whitepaper/pro-assembled-vs-head-disassembled.png",
+      "bytes": 63210,
+      "sha256": "a833e0c96d0e782aff396fa8a1e224219bd91fb91be9e6b594a3a19a012cb621"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "whitepaper/pro-assembly-cad-workspace.png",
+      "repository_path": "presentation/whitepaper/pro-assembly-cad-workspace.png",
+      "bytes": 66823,
+      "sha256": "d504c6cff3b3851716b71a544efa8ce89707564c3a966b4c5a4cd3518e05b922"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "whitepaper/pro-attach-sequence.png",
+      "repository_path": "presentation/whitepaper/pro-attach-sequence.png",
+      "bytes": 57842,
+      "sha256": "ff612edc80383da5010744bd03de5225db4f9e0f1bb22e36678906f42d6a643d"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "whitepaper/pro-head-base-exploded-iso.png",
+      "repository_path": "presentation/whitepaper/pro-head-base-exploded-iso.png",
+      "bytes": 48026,
+      "sha256": "d02bbdf2e27bcc084c7092dd10d925d74d5dfbbd2441659286617762a0b550a7"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "whitepaper/pro-parts-lineup-exploded.png",
+      "repository_path": "presentation/whitepaper/pro-parts-lineup-exploded.png",
+      "bytes": 36023,
+      "sha256": "40e8e9e067adb56dc7a89de7a9ef0962e9b077bc4e748dfab1d69edbb5443ad6"
+    },
+    {
+      "source_group": "presentation",
+      "source_relative_path": "whitepaper/pro-telescopic-pillars-assembled.png",
+      "repository_path": "presentation/whitepaper/pro-telescopic-pillars-assembled.png",
+      "bytes": 72376,
+      "sha256": "4d186dc8385c48cf96624e52d7a078dd732c915302a222441976069bffe44275"
+    }
+  ]
+}

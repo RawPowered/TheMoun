@@ -1,0 +1,1129 @@
+/**
+ * Moun — PHP shell UI (admin + auth cards). Loaded as static /php/moun-ui.css
+ * so styles survive strict CSP and CDN caching. Aligned with AppShell carbon + forest.
+ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --moun-carbon: #12151a;
+  --moun-gunmetal: #1a1f26;
+  --moun-gunmetal-mid: #232a33;
+  --moun-gunmetal-edge: #343d4a;
+  --moun-forest: #14532d;
+  --moun-forest-bright: #166534;
+  --moun-forest-deep: #0c1f14;
+  --moun-bright: #fafaf9;
+  --moun-bright-warm: #f5f4f1;
+  --moun-ink: #14181d;
+  --moun-stone-400: #a8a29e;
+  --moun-stone-500: #78716c;
+  --moun-danger: #b91c1c;
+  --moun-danger-bg: #fef2f2;
+  --moun-ok: #166534;
+  --moun-ok-bg: #ecfdf5;
+  --moun-shadow: 0 1px 3px rgba(15, 23, 42, 0.06), 0 12px 40px -12px rgba(15, 23, 42, 0.12);
+  --moun-nav-shadow: 4px 0 24px rgba(0, 0, 0, 0.35);
+  --moun-glow: 0 0 0 1px rgba(255, 255, 255, 0.06), 0 24px 48px -20px rgba(0, 0, 0, 0.45);
+  --moun-ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --moun-ease-soft: cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+::selection {
+  background: rgba(22, 101, 52, 0.18);
+  color: var(--moun-ink);
+}
+
+.moun-body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: var(--moun-ink);
+}
+
+/* ----- Auth / onboarding card ----- */
+.moun-body--card {
+  min-height: 100dvh;
+  background: linear-gradient(165deg, #ffffff 0%, var(--moun-bright-warm) 42%, #ebe8e1 100%);
+}
+.moun-card-shell {
+  min-height: 100dvh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem 1rem 3rem;
+}
+.moun-card {
+  width: 100%;
+  max-width: 28rem;
+  background: linear-gradient(180deg, #ffffff 0%, #fbfaf8 100%);
+  border: 1px solid rgba(52, 61, 74, 0.1);
+  border-radius: 18px;
+  box-shadow: var(--moun-shadow), var(--moun-glow);
+  padding: 1.85rem 1.65rem 2rem;
+}
+
+/* ----- Sign-in (login.php) — backdrop: public/brand/login-backdrop.png ----- */
+.moun-body--login.moun-body--card {
+  min-height: 100dvh;
+  background-color: #161918;
+  background-image:
+    linear-gradient(165deg, rgba(255, 255, 255, 0.9) 0%, rgba(252, 252, 250, 0.68) 42%, rgba(236, 241, 233, 0.84) 100%),
+    radial-gradient(ellipse 100% 85% at 50% 48%, rgba(22, 24, 22, 0) 32%, rgba(12, 14, 13, 0.22) 100%),
+    url('/brand/login-backdrop.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+@media (prefers-reduced-motion: no-preference) and (min-width: 640px) {
+  .moun-body--login.moun-body--card {
+    background-attachment: fixed;
+  }
+}
+.moun-card-shell--login {
+  align-items: center;
+  padding: clamp(1.75rem, 6vw, 3rem) 1.1rem clamp(2.5rem, 10vh, 4rem);
+}
+.moun-card--login {
+  max-width: 24.5rem;
+  padding: 2rem 1.85rem 2.15rem;
+  border-radius: 22px;
+  border: 1px solid rgba(52, 61, 74, 0.14);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.94) 0%, rgba(246, 247, 245, 0.92) 100%);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.92) inset,
+    0 32px 64px -28px rgba(15, 23, 42, 0.28),
+    0 2px 14px rgba(20, 83, 45, 0.1);
+}
+.moun-card--login .moun-card__brand {
+  margin-bottom: 1.45rem;
+}
+.moun-card--login .moun-card__title {
+  font-size: 1.62rem;
+  font-weight: 800;
+  letter-spacing: -0.038em;
+  margin-bottom: 0.25rem;
+}
+.moun-login-kicker {
+  margin: 0 0 0.85rem;
+  padding: 0.42rem 0.68rem;
+  display: inline-block;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #14532d;
+  background: rgba(22, 101, 52, 0.11);
+  border: 1px solid rgba(22, 101, 52, 0.18);
+  border-radius: 9px;
+}
+.moun-login-lead {
+  margin: 0 0 1.35rem;
+  font-size: 0.84rem;
+  line-height: 1.55;
+  color: var(--moun-stone-500);
+}
+.moun-login-form .moun-login-actions {
+  margin: 0.25rem 0 0;
+}
+.moun-login-form .moun-login-actions button {
+  width: 100%;
+  margin-top: 0.35rem;
+}
+.moun-login-footnote {
+  margin: 1.35rem 0 0;
+  padding-top: 1.1rem;
+  border-top: 1px solid rgba(52, 61, 74, 0.1);
+  font-size: 0.78rem;
+  line-height: 1.55;
+  color: var(--moun-stone-500);
+}
+.moun-login-footnote strong {
+  color: var(--moun-ink);
+  font-weight: 600;
+}
+
+.moun-card__brand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.55rem;
+  margin-bottom: 1.35rem;
+}
+.moun-card__sub {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--moun-stone-500);
+}
+
+/* ----- Brand mark (PNG wordmark or favicon fallback) ----- */
+.moun-brand-logo {
+  line-height: 0;
+}
+.moun-brand-logo__img {
+  display: block;
+  height: 2.15rem;
+  width: auto;
+  max-width: 11.5rem;
+  object-fit: contain;
+  object-position: left center;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.12));
+}
+.moun-brand-logo--aside .moun-brand-logo__img {
+  height: 2.45rem;
+  max-width: 13rem;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.45));
+}
+.moun-brand-logo--card .moun-brand-logo__img {
+  height: 1.95rem;
+  max-width: 10rem;
+}
+.moun-brand-logo--fallback .moun-brand-logo__img--fallback {
+  height: 2.35rem;
+  width: 2.35rem;
+  max-width: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+}
+.moun-brand-logo--aside.moun-brand-logo--fallback .moun-brand-logo__img--fallback {
+  height: 2.6rem;
+  width: 2.6rem;
+  border-radius: 11px;
+}
+.moun-admin-brand__link .moun-brand-logo {
+  transition: opacity 0.25s var(--moun-ease-out), transform 0.35s var(--moun-ease-out);
+}
+.moun-admin-brand__link:hover .moun-brand-logo {
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
+.moun-card__title {
+  margin: 0 0 0.5rem;
+  font-size: 1.45rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--moun-ink);
+}
+.moun-card__who {
+  margin: 0 0 1rem;
+  font-size: 0.8rem;
+  color: var(--moun-stone-500);
+}
+.moun-card__who strong {
+  color: var(--moun-ink);
+  font-weight: 600;
+}
+.moun-card-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.65rem;
+  margin-bottom: 1.35rem;
+  font-size: 0.78rem;
+}
+.moun-card-nav a {
+  color: var(--moun-forest-bright);
+  text-decoration: none;
+  font-weight: 700;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  background: rgba(22, 101, 52, 0.08);
+  border: 1px solid rgba(22, 101, 52, 0.12);
+  transition: background 0.15s, transform 0.15s;
+}
+.moun-card-nav a:hover {
+  background: rgba(22, 101, 52, 0.14);
+  transform: translateY(-1px);
+}
+.moun-card__body {
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+.moun-body--card label {
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--moun-stone-500);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.moun-body--card input,
+.moun-body--card textarea,
+.moun-body--card select {
+  width: 100%;
+  margin-top: 0.35rem;
+  padding: 0.6rem 0.75rem;
+  border-radius: 11px;
+  border: 1px solid rgba(52, 61, 74, 0.16);
+  background: #fff;
+  color: var(--moun-ink);
+  font-size: 0.9rem;
+}
+.moun-body--card button,
+.moun-body--card .btn {
+  margin-top: 1.1rem;
+  padding: 0.68rem 1.15rem;
+  border-radius: 11px;
+  border: 0;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.88rem;
+  background: linear-gradient(180deg, var(--moun-forest-bright) 0%, var(--moun-forest) 100%);
+  color: #fff;
+  box-shadow: 0 2px 10px rgba(20, 83, 45, 0.28);
+  text-decoration: none;
+  display: inline-block;
+  transition: filter 0.15s, transform 0.15s;
+}
+.moun-body--card button:hover,
+.moun-body--card .btn:hover {
+  filter: brightness(1.06);
+  transform: translateY(-1px);
+}
+.moun-body--card .btn-secondary {
+  background: var(--moun-gunmetal-mid);
+  box-shadow: none;
+}
+.moun-body--card .err {
+  color: var(--moun-danger);
+  background: var(--moun-danger-bg);
+  padding: 0.55rem 0.75rem;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  margin-top: 0.75rem;
+}
+.moun-body--card .ok {
+  color: var(--moun-ok);
+  background: var(--moun-ok-bg);
+  padding: 0.55rem 0.75rem;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  margin-top: 0.75rem;
+}
+.moun-body--card small {
+  color: var(--moun-stone-500);
+}
+
+/* ----- NDA (nda.php) — light paper, legible body HTML ----- */
+.moun-card:has(.moun-nda-document-wrap) {
+  max-width: min(42rem, calc(100vw - 2rem));
+}
+.moun-nda-lead {
+  margin: 0 0 1.1rem;
+  max-width: 68ch;
+}
+.moun-nda-lead__p {
+  margin: 0 0 0.6rem;
+  font-size: 0.96rem;
+  font-weight: 600;
+  color: var(--moun-ink);
+  line-height: 1.5;
+}
+.moun-nda-lead__sub {
+  margin: 0;
+  font-size: 0.84rem;
+  color: var(--moun-stone-500);
+  line-height: 1.6;
+}
+.moun-nda-document-wrap {
+  max-height: min(58vh, 30rem);
+  overflow: auto;
+  margin: 0 0 1.35rem;
+  border-radius: 14px;
+  border: 1px solid rgba(52, 61, 74, 0.2);
+  background: #fff;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 1px 6px rgba(15, 23, 42, 0.06);
+  -webkit-overflow-scrolling: touch;
+}
+.moun-nda-document {
+  padding: 1.05rem 1.25rem 1.45rem;
+  font-size: 0.9rem;
+  line-height: 1.68;
+  color: #292524;
+  background: #fff;
+  max-width: 76ch;
+}
+.moun-nda-document :first-child {
+  margin-top: 0;
+}
+.moun-nda-document h1,
+.moun-nda-document h2,
+.moun-nda-document h3,
+.moun-nda-document h4 {
+  margin: 1.1rem 0 0.4rem;
+  font-size: 0.98rem;
+  font-weight: 800;
+  color: var(--moun-ink);
+  line-height: 1.3;
+}
+.moun-nda-document h1:first-child,
+.moun-nda-document h2:first-child,
+.moun-nda-document h3:first-child,
+.moun-nda-document h4:first-child {
+  margin-top: 0;
+}
+.moun-nda-document p {
+  margin: 0 0 0.72rem;
+}
+.moun-nda-document ul,
+.moun-nda-document ol {
+  margin: 0 0 0.65rem;
+  padding-left: 1.35rem;
+}
+.moun-nda-document li {
+  margin: 0.3rem 0;
+}
+.moun-nda-document strong {
+  color: var(--moun-ink);
+}
+.moun-nda-document a {
+  color: var(--moun-forest-bright);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.moun-nda-document table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  margin: 0.65rem 0;
+}
+.moun-nda-document th,
+.moun-nda-document td {
+  border: 1px solid #d6d3d1;
+  padding: 0.4rem 0.55rem;
+  vertical-align: top;
+}
+.moun-nda-binding-callout {
+  margin: 0 0 1rem;
+  padding: 0.75rem 0.92rem;
+  border-radius: 12px;
+  border: 1px solid rgba(245, 158, 11, 0.45);
+  background: linear-gradient(180deg, #fffbeb 0%, #fef3c7 100%);
+  color: #78350f;
+  font-size: 0.84rem;
+  font-weight: 600;
+  line-height: 1.52;
+}
+.moun-nda-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-transform: none;
+  color: var(--moun-ink);
+}
+.moun-nda-checkbox input[type='checkbox'] {
+  width: auto;
+  margin-top: 0;
+  flex-shrink: 0;
+}
+.moun-nda-checkbox span {
+  line-height: 1.5;
+}
+
+@media (max-width: 40rem) {
+  .moun-nda-document {
+    padding: 0.95rem 0.95rem 1.2rem;
+    font-size: 0.88rem;
+  }
+  .moun-nda-binding-callout {
+    font-size: 0.82rem;
+  }
+}
+
+/* ----- Admin shell ----- */
+.moun-body--admin {
+  min-height: 100dvh;
+}
+.moun-admin {
+  display: flex;
+  min-height: 100dvh;
+  width: 100%;
+}
+.moun-admin-aside {
+  width: 18rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #15181d;
+  background-image:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.045) 0%, transparent 42%),
+    repeating-linear-gradient(-45deg, transparent, transparent 3px, rgba(0, 0, 0, 0.12) 3px, rgba(0, 0, 0, 0.12) 4px),
+    repeating-linear-gradient(45deg, transparent, transparent 3px, rgba(255, 255, 255, 0.022) 3px, rgba(255, 255, 255, 0.022) 4px),
+    linear-gradient(165deg, #1e252e 0%, #12151a 55%, #0c0f12 100%);
+  border-right: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: var(--moun-nav-shadow);
+  color: #d6d3d1;
+}
+.moun-admin-brand {
+  padding: 1.65rem 1.5rem 1.25rem;
+}
+.moun-admin-brand__link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.55rem;
+}
+.moun-admin-brand__sub {
+  display: block;
+  margin-top: 0;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #a8a29e;
+}
+.moun-admin-brand__legal {
+  margin: 0.85rem 0 0;
+  font-size: 0.64rem;
+  line-height: 1.5;
+  color: #78716c;
+  max-width: 14rem;
+}
+.moun-admin-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0;
+  flex: 1;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+.moun-admin-nav__a {
+  display: block;
+  padding: 0.95rem 1.5rem;
+  text-decoration: none;
+  color: #a8a29e;
+  border-left: 3px solid transparent;
+  transition:
+    background 0.28s var(--moun-ease-out),
+    color 0.28s var(--moun-ease-out),
+    border-color 0.28s var(--moun-ease-out),
+    transform 0.28s var(--moun-ease-out);
+}
+.moun-admin-nav__a:hover {
+  background: rgba(255, 255, 255, 0.045);
+  color: #f5f5f4;
+  transform: translateX(2px);
+}
+.moun-admin-nav__a--active {
+  background: rgba(255, 255, 255, 0.07);
+  color: #fafaf9;
+  border-left-color: var(--moun-forest-bright);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+}
+.moun-admin-nav__label {
+  display: block;
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: inherit;
+  letter-spacing: -0.01em;
+}
+.moun-admin-nav__hint {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #78716c;
+}
+.moun-admin-nav__a--active .moun-admin-nav__hint {
+  color: #a3a3a3;
+}
+.moun-admin-aside__foot {
+  padding: 1.35rem 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+.moun-admin-status {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #78716c;
+}
+.moun-admin-status__dot {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 999px;
+  background: var(--moun-forest-bright);
+  box-shadow: 0 0 10px rgba(22, 101, 52, 0.85);
+}
+.moun-admin-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  position: relative;
+  background:
+    radial-gradient(120% 80% at 100% 0%, rgba(22, 101, 52, 0.06) 0%, transparent 55%),
+    linear-gradient(165deg, #ffffff 0%, var(--moun-bright-warm) 38%, #e4e2dc 100%);
+}
+.moun-admin-main::after {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, transparent 28%);
+  opacity: 0.9;
+}
+.moun-admin-topbar {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.35rem 1.85rem 1.15rem;
+  border-bottom: 1px solid rgba(52, 61, 74, 0.07);
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(16px) saturate(1.2);
+  -webkit-backdrop-filter: blur(16px) saturate(1.2);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.65) inset;
+}
+.moun-admin-topbar__title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  color: var(--moun-ink);
+  line-height: 1.15;
+}
+.moun-admin-user {
+  text-align: right;
+  max-width: 22rem;
+}
+.moun-admin-user__email {
+  display: block;
+  font-size: 0.76rem;
+  color: var(--moun-stone-500);
+  word-break: break-all;
+}
+.moun-admin-user__badge {
+  display: inline-block;
+  margin-top: 0.4rem;
+  padding: 0.22rem 0.55rem;
+  border-radius: 7px;
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: rgba(22, 101, 52, 0.12);
+  color: var(--moun-forest-bright);
+  border: 1px solid rgba(22, 101, 52, 0.22);
+}
+.moun-admin-user__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.75rem;
+  justify-content: flex-end;
+  margin-top: 0.55rem;
+  font-size: 0.74rem;
+}
+.moun-admin-user__links a {
+  color: var(--moun-forest-bright);
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.25rem 0.45rem;
+  border-radius: 6px;
+  transition: background 0.15s;
+}
+.moun-admin-user__links a:hover {
+  background: rgba(22, 101, 52, 0.1);
+}
+.moun-admin-content {
+  position: relative;
+  z-index: 1;
+  padding: 1.5rem 1.85rem 3rem;
+  flex: 1;
+}
+.moun-admin-content-inner {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  animation: mounContentReveal 0.55s var(--moun-ease-out) both;
+}
+@keyframes mounContentReveal {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Panels & data */
+.moun-panel {
+  position: relative;
+  background: linear-gradient(180deg, #ffffff 0%, #faf9f7 100%);
+  border: 1px solid rgba(52, 61, 74, 0.09);
+  border-radius: 18px;
+  box-shadow: var(--moun-shadow), 0 0 0 1px rgba(255, 255, 255, 0.5) inset;
+  padding: 1.5rem 1.65rem;
+  margin-bottom: 1.35rem;
+  transition: box-shadow 0.35s var(--moun-ease-out), border-color 0.35s var(--moun-ease-out);
+}
+.moun-panel:hover {
+  border-color: rgba(52, 61, 74, 0.12);
+  box-shadow: 0 4px 24px -8px rgba(15, 23, 42, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.55) inset;
+}
+.moun-panel::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 1.25rem;
+  right: 1.25rem;
+  height: 2px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, transparent, rgba(22, 101, 52, 0.35), transparent);
+  pointer-events: none;
+}
+.moun-panel__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 1.05rem;
+}
+.moun-panel__title {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--moun-ink);
+  letter-spacing: -0.02em;
+}
+.moun-panel__sub {
+  margin: 0.25rem 0 0;
+  font-size: 0.8rem;
+  color: var(--moun-stone-500);
+  max-width: 44rem;
+  line-height: 1.5;
+}
+.moun-kicker {
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--moun-forest-bright);
+  margin: 0 0 0.4rem;
+}
+
+/* ----- Account / profile (card + admin) ----- */
+.moun-card:has(.moun-profile) {
+  max-width: 34rem;
+}
+.moun-profile {
+  width: 100%;
+}
+.moun-admin .moun-profile {
+  max-width: 40rem;
+}
+.moun-profile > .err,
+.moun-profile > .ok {
+  margin: 0 0 1rem;
+}
+.moun-profile__form > .moun-panel:first-child {
+  margin-top: 0;
+}
+.moun-profile-panel__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.65rem 1rem;
+  margin-bottom: 0.85rem;
+}
+.moun-profile-panel__head .moun-panel__title {
+  margin-bottom: 0;
+}
+.moun-profile-legal-name {
+  margin: 0 0 0.65rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--moun-ink);
+  line-height: 1.35;
+  word-break: break-word;
+}
+.moun-profile-legal-empty {
+  font-weight: 600;
+  color: var(--moun-stone-500);
+  font-size: 0.95rem;
+}
+.moun-profile-lock-badge {
+  flex-shrink: 0;
+  font-size: 0.58rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 0.32rem 0.55rem;
+  border-radius: 999px;
+  color: var(--moun-stone-500);
+  background: rgba(52, 61, 74, 0.06);
+  border: 1px solid rgba(52, 61, 74, 0.1);
+}
+.moun-profile .moun-panel__sub {
+  margin-top: 0;
+  margin-bottom: 0.15rem;
+}
+.moun-profile .moun-panel label:first-of-type {
+  margin-top: 0.75rem;
+}
+.moun-profile-actions {
+  margin: 1.35rem 0 0;
+}
+.moun-profile-actions .btn,
+.moun-profile-actions button {
+  margin-top: 0;
+}
+
+.moun-admin label {
+  display: block;
+  margin-top: 0.9rem;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--moun-stone-500);
+}
+.moun-admin label:first-of-type,
+.moun-admin .moun-fieldrow label:first-child {
+  margin-top: 0;
+}
+.moun-admin input,
+.moun-admin select,
+.moun-admin textarea {
+  width: 100%;
+  max-width: 28rem;
+  margin-top: 0.35rem;
+  padding: 0.58rem 0.72rem;
+  border-radius: 11px;
+  border: 1px solid rgba(52, 61, 74, 0.14);
+  background: #fff;
+  font-size: 0.88rem;
+  color: var(--moun-ink);
+}
+.moun-admin .moun-fieldrow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem 1rem;
+  align-items: flex-end;
+  margin-top: 0.9rem;
+}
+.moun-admin .moun-fieldrow label {
+  margin-top: 0;
+  flex: 1;
+  min-width: 7rem;
+}
+.moun-admin .moun-fieldrow input,
+.moun-admin .moun-fieldrow select {
+  max-width: none;
+}
+.moun-admin button,
+.moun-admin .btn {
+  padding: 0.58rem 1.05rem;
+  border-radius: 11px;
+  border: 0;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.8rem;
+  background: linear-gradient(180deg, var(--moun-forest-bright) 0%, var(--moun-forest) 100%);
+  color: #fff;
+  box-shadow: 0 2px 10px rgba(20, 83, 45, 0.22);
+  text-decoration: none;
+  display: inline-block;
+  transition: filter 0.15s, transform 0.15s;
+}
+.moun-admin button:hover,
+.moun-admin .btn:hover {
+  filter: brightness(1.05);
+}
+.moun-admin button.moun-btn--ghost,
+.moun-admin .moun-btn--ghost {
+  background: var(--moun-gunmetal-mid);
+  box-shadow: none;
+  font-weight: 600;
+}
+.moun-admin button.moun-btn--sm,
+.moun-admin .moun-btn--sm {
+  padding: 0.42rem 0.78rem;
+  font-size: 0.72rem;
+  border-radius: 9px;
+}
+.moun-admin .err {
+  color: var(--moun-danger);
+  background: var(--moun-danger-bg);
+  padding: 0.55rem 0.8rem;
+  border-radius: 11px;
+  font-size: 0.85rem;
+  margin: 0.5rem 0;
+}
+.moun-admin .ok {
+  color: var(--moun-ok);
+  background: var(--moun-ok-bg);
+  padding: 0.55rem 0.8rem;
+  border-radius: 11px;
+  font-size: 0.85rem;
+  margin: 0.5rem 0;
+}
+
+.moun-invite-box {
+  margin-top: 0.85rem;
+  padding: 1.05rem 1.15rem;
+  border-radius: 12px;
+  background: linear-gradient(165deg, #1a1f26 0%, #0f1218 100%);
+  color: var(--moun-bright);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.72rem;
+  line-height: 1.55;
+  word-break: break-all;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+.moun-invite-box a {
+  color: #86efac;
+  font-weight: 600;
+}
+
+.moun-table-scroll {
+  overflow-x: auto;
+  margin: 0 -0.15rem;
+  border-radius: 12px;
+  -webkit-overflow-scrolling: touch;
+}
+.moun-data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(52, 61, 74, 0.1);
+}
+.moun-data-table th,
+.moun-data-table td {
+  padding: 0.68rem 0.8rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(52, 61, 74, 0.07);
+  vertical-align: top;
+}
+.moun-data-table th {
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--moun-stone-500);
+  background: linear-gradient(180deg, #f4f3f0, #e8e6e1);
+}
+.moun-data-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+.moun-data-table tbody tr:hover td {
+  background: rgba(22, 101, 52, 0.035);
+}
+.moun-data-table td.moun-mono {
+  font-family: ui-monospace, monospace;
+  font-size: 0.68rem;
+  color: var(--moun-stone-500);
+}
+
+.moun-pill {
+  display: inline-block;
+  padding: 0.18rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.moun-pill--admin {
+  background: rgba(26, 54, 93, 0.12);
+  color: #1e3a5f;
+}
+.moun-pill--viewer {
+  background: rgba(52, 61, 74, 0.08);
+  color: #44403c;
+}
+.moun-pill--ok {
+  background: rgba(22, 101, 52, 0.12);
+  color: var(--moun-forest-bright);
+}
+.moun-pill--warn {
+  background: rgba(180, 83, 9, 0.12);
+  color: #b45309;
+}
+.moun-pill--wait {
+  background: rgba(120, 113, 108, 0.14);
+  color: #57534e;
+}
+
+.moun-dash-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16.5rem, 1fr));
+  gap: 1.15rem;
+}
+.moun-dash-card {
+  position: relative;
+  display: block;
+  padding: 1.35rem 1.4rem 1.45rem;
+  border-radius: 18px;
+  text-decoration: none;
+  color: inherit;
+  overflow: hidden;
+  background: linear-gradient(165deg, #ffffff 0%, #f6f5f2 100%);
+  border: 1px solid rgba(52, 61, 74, 0.09);
+  box-shadow: var(--moun-shadow), 0 0 0 1px rgba(255, 255, 255, 0.45) inset;
+  transition:
+    transform 0.4s var(--moun-ease-out),
+    box-shadow 0.4s var(--moun-ease-out),
+    border-color 0.4s var(--moun-ease-out);
+}
+.moun-dash-card::before {
+  z-index: 1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--moun-forest) 0%, #22c55e 45%, var(--moun-forest-bright) 100%);
+  opacity: 0.95;
+}
+.moun-dash-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 48px -16px rgba(15, 23, 42, 0.16), 0 0 0 1px rgba(255, 255, 255, 0.55) inset;
+  border-color: rgba(22, 101, 52, 0.26);
+}
+.moun-dash-card:focus-visible {
+  outline: 2px solid var(--moun-forest-bright);
+  outline-offset: 3px;
+}
+.moun-dash-card__k {
+  position: relative;
+  z-index: 2;
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--moun-forest-bright);
+  margin: 0.35rem 0 0.45rem;
+}
+.moun-dash-card__t {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  font-size: 1.12rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  color: var(--moun-ink);
+}
+.moun-dash-card__d {
+  position: relative;
+  z-index: 2;
+  margin: 0.5rem 0 0;
+  font-size: 0.78rem;
+  line-height: 1.48;
+  color: var(--moun-stone-500);
+}
+.moun-dash-meta {
+  position: relative;
+  z-index: 2;
+  margin-top: 1.1rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.moun-admin input:focus-visible,
+.moun-admin select:focus-visible,
+.moun-admin textarea:focus-visible,
+.moun-body--card input:focus-visible,
+.moun-body--card select:focus-visible,
+.moun-body--card textarea:focus-visible {
+  outline: 2px solid rgba(22, 101, 52, 0.45);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .moun-admin-content-inner,
+  .moun-dash-card,
+  .moun-admin-nav__a,
+  .moun-admin-brand__link .moun-brand-logo,
+  .moun-panel {
+    animation: none !important;
+    transition: none !important;
+  }
+  .moun-admin-nav__a:hover {
+    transform: none;
+  }
+  .moun-dash-card:hover {
+    transform: none;
+  }
+}
+
+@media (max-width: 52rem) {
+  .moun-admin {
+    flex-direction: column;
+  }
+  .moun-admin-aside {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.35rem 0;
+  }
+  .moun-admin-brand {
+    padding: 1rem 1rem 0.5rem;
+    flex: 1;
+    min-width: 12rem;
+  }
+  .moun-admin-nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.25rem 0.75rem;
+    border-top: 0;
+    flex: 2;
+  }
+  .moun-admin-nav li {
+    margin: 0;
+  }
+  .moun-admin-nav__a {
+    padding: 0.55rem 0.85rem;
+    border-left: 0;
+    border-bottom: 2px solid transparent;
+  }
+  .moun-admin-nav__a--active {
+    border-bottom-color: var(--moun-forest-bright);
+    border-left-color: transparent;
+  }
+  .moun-admin-aside__foot {
+    display: none;
+  }
+  .moun-admin-user {
+    text-align: left;
+    max-width: none;
+    width: 100%;
+    padding: 0 1.35rem 1rem;
+  }
+  .moun-admin-user__links {
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,13 @@
+# Runtime and private data do not belong in this public portfolio.
+**/.env
+**/.env.*
+!**/.env.example
+**/config.local.php
+**/.installed
+**/*.sqlite
+**/*.sqlite3
+**/*.db
+**/*.log
+**/node_modules/
+**/sessions/
+**/backups/

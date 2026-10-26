@@ -1,0 +1,36 @@
+# Moun deploy — Apache (see deploy/APACHE_HARDENING_NOTES.txt for limits).
+# Requires: mod_rewrite, mod_headers (optional: adjust if your host strips directives).
+
+Options -Indexes
+ServerSignature Off
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "DENY"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set Permissions-Policy "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # If TLS terminates here (not behind TLS-terminating proxy only), force HTTPS.
+  RewriteCond %{HTTPS} !=on
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # Never serve the SPA shell without PHP gate.
+  RewriteRule ^index\.html$ index.php [L,NC]
+
+  # Gate hashed Vite assets (session checked in serve_asset.php).
+  RewriteRule ^assets/(.*)$ php/serve_asset.php?file=$1 [L,QSA]
+</IfModule>
+
+<IfModule mod_headers.c>
+  # HSTS only when this connection is HTTPS (avoid leaking on plain HTTP dev).
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains" env=HTTPS
+</IfModule>
+
+<FilesMatch "(?i)\.(sql|md|bak|old|env|log|jsonl)$">
+  Require all denied
+</FilesMatch>
+
+DirectoryIndex index.php index.html
